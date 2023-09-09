@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>Review Assignment
+
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: A starter project for ...">
-  <title>Bootstrap 5 Landing Page Template</title>
+  <title>Review Assignment</title>
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
@@ -27,19 +29,15 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#awards">A&C</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">
-          801-626-1234
-          <span>
-            <i class="bi bi-telephone-fill"></i>
-          </span>
-        </button>
       </div>
     </div>
   </nav>
@@ -52,10 +50,12 @@
           <h1 class="display-2">
             <span class="display-2--intro">Welcome!</span>
             <span class="display-2--description lh-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur libero quod quasi et ex.
+              My name is Brooklyn Roylance. I'm a student at Weber State University.
+               I'm currently pursuing my Bachelor's in Web and User Experience with 
+               a Concentration in Full Stack Web Development and a Minor in Art.
             </span>
           </h1>
-          <button type="button" class="rounded-pill btn-rounded">Get in Touch
+          <button type="button" class="btn btn-primary">Get in Touch
             <span><i class="bi bi-arrow-right"></i></span>
           </button>
         </div>
@@ -79,12 +79,101 @@
       </path>
     </svg>
   </section>
+  <!-- MY ABOUT SECTION -->
+  <section id="about" class="about">
+    
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">About Brooklyn
+          <span class="badge bg-secondary">She/Her</span>
+        </h1>
+        <hr style="width: 100px; height: 3px; " class="mx-auto">
+        <p class="lead pt-1">Just a few fun facts about me.</p>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="text-center">
+          <ul class="list-group">
+            <li class="list-group-item justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Fun Fact</div>
+                The first really weird but cool fun fact about Brooklyn will eventually go here.
+              </div>
+            </li>
+            <li class="list-group-item justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Fun Fact</div>
+                Another really weird but cool fun fact about Brooklyn will eventually go here.
+              </div>
+            </li>
+            <li class="list-group-item  justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Fun Fact</div>
+                The last really weird but cool fun fact about Brooklyn will eventually go here.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MY AWARDS AND CERTIFICATIONS SECTION -->
+  <section id="awards" class="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">Awards & Certifications</h1>
+        <hr style="width: 100px; height: 3px; " class="mx-auto">
+        <p class="lead pt-1"></p>
+      </div>
+        <p class="text-center">
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Awards</a>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Certifications</button>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">All</button>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                <ul>
+                  <li>Award thingy goes here</li>
+                  <li>Award thingy numero dos goes here</li>
+                  <li>Award thingy numero tres goes here</li>
+                  <li>Y cuatro aqui</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                <ul>
+                  <li>First Aid and CPR Certified. (Not super relavent)</li>
+                  <li>Certification thingy numero dos goes here</li>
+                  <li>Certification thingy numero tres goes here</li>
+                  <li>Y cuatro aqui</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
 
   <!-- THE SERVICES SECTION -->
   <section id="services" class="services">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">Our Services</h1>
+        <h1 class="display-3 fw-bold">My Services</h1>
         <div class="heading-line mb-1"></div>
       </div>
       <div class="row pt-2 pb-2 mt-0 mb-3">
@@ -110,11 +199,13 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block bi bi-send-fill"></div>
-            <h3 class="display-3--title mt-1">Marketing</h3>
+            <h3 class="display-3--title mt-1">Web Design</h3>
             <p class="lh-lg">
-              Welcome to my website. This is new.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
+              doloremque autem quibusdam blanditiis harum alias hic accusantium
+              maxime atque ratione magni repellat?
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <button type="button" class="btn btn-primary border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
             </button>
           </div>
@@ -134,13 +225,13 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block bi bi-code-slash"></div>
-            <h3 class="display-3--title mt-1">web development</h3>
+            <h3 class="display-3--title mt-1">Web Development</h3>
             <p class="lh-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
               doloremque autem quibusdam blanditiis harum alias hic accusantium
               maxime atque ratione magni repellat?
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <button type="button" class="btn btn-primary border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
             </button>
           </div>
@@ -150,13 +241,13 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block bi bi-cloud-arrow-up"></div>
-            <h3 class="display-3--title mt-1">cloud hosting</h3>
+            <h3 class="display-3--title mt-1">Illustration</h3>
             <p class="lh-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
               doloremque autem quibusdam blanditiis harum alias hic accusantium
               maxime atque ratione magni repellat?
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <button type="button" class="btn btn-primary border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
             </button>
           </div>
@@ -430,127 +521,134 @@
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
         <div class="heading-line"></div>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+          Hola la profesora, yo no tengo muchas proyectos todavia.
         </p>
       </div>
       <div class="row mt-5 mb-4 g-3 text-center">
         <div class="col-md-12">
           <button class="btn btn-outline-primary" type="button">All</button>
-          <button class="btn btn-outline-primary" type="button">websites</button>
-          <button class="btn btn-outline-primary" type="button">design</button>
-          <button class="btn btn-outline-primary" type="button">mockup</button>
+          <button class="btn btn-outline-primary" type="button">Web</button>
+          <button class="btn btn-outline-primary" type="button">Illustration</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
+          <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#project1Modal">
+            <div class="portfolio-box shadow">
+              <img src="images/portfolio/project-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>RecipesForU</h4>
+                  <p>Web Design</p>
+                </div>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">RecipesForU</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/portfolio/project-1.jpg" alt="full-size portfolio image 1">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#project2Modal">
+            <div class="portfolio-box shadow">
+              <img src="images/portfolio/project-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>Billy Goats Gruff</h4>
+                  <p>Illustration</p>
+                </div>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Billy Goats Gruff</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/portfolio/project-2.jpg" alt="full-size portfolio image 2">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/project-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Billy Goats Gruff</h4>
+                <p>Illustration</p>
+              </div>
+            </div>
+          </div>
+          -->
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
+          <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#project3Modal">
+            <div class="portfolio-box shadow">
+              <img src="images/portfolio/project-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>The Lion and The Mouse</h4>
+                  <p>Illustration</p>
+                </div>
+              </div>
+            </div>
+          </button>
+          <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">The Lion and The Mouse</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/portfolio/project-3.jpg" alt="full-size portfolio image 3">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
+          <!--
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
+            <img src="images/portfolio/project-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
+                <h4>The Lion and The Mouse</h4>
+                <p>Illustration</p>
               </div>
             </div>
           </div>
+          -->
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -603,7 +701,7 @@
                   class="shadow form-control form-control-lg"></textarea>
               </div>
               <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                <button type="button" class="btn btn-primary pt-3 pb-3">
                   submit
                   <i class="bi bi-send"></i>
                 </button>

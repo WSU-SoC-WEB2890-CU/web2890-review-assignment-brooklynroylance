@@ -1,6 +1,12 @@
 @use '../custom'as *;
 @use '../components/mixins'as *;
-
+.btn-primary {
+  
+  &:hover {
+    @include gradient;
+    color: $white;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
@@ -33,7 +39,7 @@
     color: $white;
 
     span {
-      background-color: rgba($orange, 1.0);
+      background-color: rgba($yellow, 1.0);
     }
   }
 }
