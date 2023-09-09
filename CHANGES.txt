@@ -9,4 +9,4 @@ TODO: List here all the changes you made to given template to adapt it to your n
 7) Created modals for the portfolio boxes buttons so that the user can view the full images.
 8) Removed the extra portfolio boxes because I didn't have projects to put in them.
 9) Added a badge by my name in About section to give user a tadbit of more information.
-10) 
+10) Got rid of the products section because I don't think it fits well with my personal portfolio.
